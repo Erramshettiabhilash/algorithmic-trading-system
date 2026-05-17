@@ -1,0 +1,54 @@
+{
+  "model_evaluation": {
+    "rmse": 0.003956766854501453,
+    "accuracy": 0.36,
+    "sharpe": -5.913189157277455,
+    "max_drawdown": -0.0753922714492733,
+    "information_coefficient": 0.0423549750776496,
+    "observations": 50
+  },
+  "trading_performance": {
+    "total_return": 0.10256849728243211,
+    "cagr": 0.6357770894994101,
+    "sharpe": 10.918518463501512,
+    "information_ratio": 10.918518463501512,
+    "max_drawdown": -0.0059652305242059445,
+    "annualized_volatility": 0.04520740629723787,
+    "profit_factor": 6.002235566502549,
+    "win_rate": 0.7,
+    "average_turnover": 0.06,
+    "observations": 50
+  },
+  "walk_forward_evaluation": {
+    "rmse": 0.0035567222181251395,
+    "accuracy": 0.51,
+    "sharpe": 0.36236562549520945,
+    "max_drawdown": -0.05231103807294002,
+    "information_coefficient": -0.064729055469668,
+    "observations": 100
+  },
+  "portfolio_performance": {
+    "total_return": -0.08493380432601794,
+    "cagr": -0.10733085660197006,
+    "sharpe": -4.0856427961090835,
+    "information_ratio": -4.0856427961090835,
+    "max_drawdown": -0.16525304736446622,
+    "annualized_volatility": 0.027690171689132004,
+    "profit_factor": 0.5330339217178551,
+    "win_rate": 0.4010152284263959,
+    "average_turnover": 0.03553299492385787,
+    "observations": 197
+  },
+  "top_shap_features": {
+    "ema_8": 0.0011296889279037714,
+    "ema_18": 0.00021621119230985641,
+    "volume_zscore_10": 0.0001709546777419746,
+    "log_return_1": 0.00011552160140126944,
+    "atr_ratio_10": 9.869840141618624e-05
+  },
+  "portfolio_factor_exposure": {
+    "market": 0.026926715492366606,
+    "momentum": 0.3222288576037703,
+    "volatility": -0.09416962839686539
+  }
+}

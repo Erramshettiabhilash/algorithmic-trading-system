@@ -1,0 +1,11 @@
+{
+  "black_scholes_call": 10.450583572185565,
+  "monte_carlo_call": 10.372453360216639,
+  "monte_carlo_standard_error": 0.10280375205003088,
+  "sabr_rmse": 0.0002029665251809629,
+  "hedging_final_pnl": -0.2712737520444648,
+  "stress_var_95": -8.010603200269967,
+  "stress_expected_shortfall_95": -10.105539334329569,
+  "market_making_bid": 9.613738728417033,
+  "market_making_ask": 11.12839002935555
+}
